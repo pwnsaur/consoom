@@ -1,6 +1,6 @@
 import { Outlet, NavLink } from 'react-router-dom';
 import { ReactComponent as CrwnLogo } from '../../assets/crown.svg';
-import './Navbar.scss';
+import './Navbar.styles.scss';
 
 const Navbar = () => {
   return (
