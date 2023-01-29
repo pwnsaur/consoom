@@ -1,5 +1,5 @@
-import './SignUpForm.scss';
-import { FormInput, Button } from '../';
+import './SignUpForm.styles.scss';
+import { FormInput, Button } from '..';
 
 import { useState } from 'react';
 

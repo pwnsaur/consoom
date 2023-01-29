@@ -1,8 +1,8 @@
 import { Outlet, NavLink } from 'react-router-dom';
 import { ReactComponent as CrwnLogo } from '../../assets/crown.svg';
-import './Navbar.styles.scss';
+import './Navigation.styles.scss';
 
-const Navbar = () => {
+const Navigation = () => {
   return (
     <>
       <div className='navigation'>
@@ -13,7 +13,7 @@ const Navbar = () => {
           <NavLink className='nav-link' to='/shop'>
             SHOP
           </NavLink>
-          <NavLink className='nav-link' to='/sign-in'>
+          <NavLink className='nav-link' to='/auth'>
             SIGN IN
           </NavLink>
         </div>
@@ -23,4 +23,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;
