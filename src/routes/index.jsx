@@ -1,5 +1,5 @@
 import Home from './home/Home';
-import Navigation from './Navigation/Navigation';
-import Authentication from './Authentication/Authentication';
+import Navigation from './navigation/Navigation';
+import Authentication from './authentication/Authentication';
 
 export { Home, Navigation, Authentication };
